@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Belajar CSS - Niomic</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <style>
+      .content {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* flex-direction: row
+      justify-conten: :horizontal
+      align-items: vertival
+
+      flex-direction: column
+      justify-conten: :vertical
+      align-items: horizontal */
+
+      .content-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 20px 0px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="content-item">
+        <h3>Jakarta</h3>
+        <img
+          src="jakarta.jpg"
+          class="center rounded"
+          width="250px"
+          height="250px"
+        />
+      </div>
+      <div class="content-item">
+        <h3>Lampung</h3>
+        <img
+          src="lampung.jpg"
+          class="rounded-circle"
+          width="250px"
+          height="250px"
+        />
+      </div>
+      <div class="content-item">
+        <h3>Yogyakarta</h3>
+        <img
+          src="yogyakarta.jpg"
+          class="img-thumbnail"
+          width="250px"
+          height="250px"
+        />
+      </div>
+    </div>
+  </body>
+</html>
